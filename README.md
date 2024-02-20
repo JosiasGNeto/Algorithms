@@ -1,5 +1,5 @@
 # Algorithms
- Algorithms Studies
-
- <h1>Course Completion Certificate</h1>
- <img href="Certificates/Certificado Algoritmos.png"></img>
+ <h1>Algorithms Studies</h2>
+ <br>
+ <h2>Course Completion Certificate</h2>
+ <img src="Certificates/Certificado Algoritmos.png">
