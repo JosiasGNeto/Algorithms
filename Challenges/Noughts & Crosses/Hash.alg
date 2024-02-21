@@ -1,13 +1,12 @@
-algoritmo "semnome"
-// Função :
-// Autor :
+Algoritmo "Noughts & Crosses"
+// Autor : Josias Neto
 // Data : 21/02/2024
-// Seção de Declarações
+
 //---------------------------------------------------------------------VARIÁVEIS
-var
+Var
    Jogo: Vetor[1..3, 1..3] de Caractere
    Linha, Coluna: Inteiro
-   Contador: Inteiro
+   Contador, I: Inteiro
    Jogador, Jogada: Inteiro
    Marcacao: Caractere
 
@@ -36,6 +35,7 @@ Inicio
    EscrevaL ("| JOGADOR 2 : O                 |")
    EscrevaL ("|===============================|")
    EscrevaL ("|            POSIÇÕES           |")
+   EscrevaL ("|-------------------------------|")
    EscrevaL ("|                               |")
    EscrevaL ("|         [1]  [2]  [3]         |")
    EscrevaL ("|         [4]  [5]  [6]         |")
@@ -86,13 +86,19 @@ FimFuncao
 
 Inicio
    Repita
+   
       Contador <- Contador + 1
+   
+      //GRÁFICOS----------------------------------------------------------------
+      
       LimpaTela
-      
       TelaPrincipal()
-      
       Jogador <- DefinaJogador(Contador, Jogador)
       
+      //------------------------------------------------------------------------
+      
+      //DECLARAÇÃO DAS JOGADAS--------------------------------------------------
+
       Se (Contador < 10) entao
          Escreva ("JOGADOR ", Jogador, ": ")
          Leia (Jogada)
@@ -102,8 +108,12 @@ Inicio
             Marcacao <- "O"
          FimSe
       FimSe
-      
       Opcao()
+
+      //------------------------------------------------------------------------
+      
+      //CONDIÇOES: VITÓRIA / DERROTA / EMPATE-----------------------------------
+      
       
    Ate (Contador = 10)
 FimAlgoritmo
