@@ -50,59 +50,23 @@ Procedimento Opcao()
 Inicio
    Escolha Jogada
       Caso 1
-         Se (Jogo[1,1] = "-") entao
-            Jogo[1, 1] <- Marcacao
-         Senao
-            Contador <- Contador - 1
-         FimSe
+         Jogo[1, 1] <- Marcacao
       Caso 2
-         Se (Jogo[1,2] = "-") entao
-            Jogo[1, 2] <- Marcacao
-         Senao
-            Contador <- Contador - 1
-         FimSe
+         Jogo[1, 2] <- Marcacao
       Caso 3
-         Se (Jogo[1,3] = "-") entao
-            Jogo[1, 3] <- Marcacao
-         Senao
-            Contador <- Contador - 1
-         FimSe
+         Jogo[1, 3] <- Marcacao
       Caso 4
-         Se (Jogo[2,1] = "-") entao
-            Jogo[2, 1] <- Marcacao
-         Senao
-            Contador <- Contador - 1
-         FimSe
+         Jogo[2, 1] <- Marcacao
       Caso 5
-         Se (Jogo[2,2] = "-") entao
-            Jogo[2, 2] <- Marcacao
-         Senao
-            Contador <- Contador - 1
-         FimSe
+         Jogo[2, 2] <- Marcacao
       Caso 6
-         Se (Jogo[2,3] = "-") entao
-            Jogo[2, 3] <- Marcacao
-         Senao
-            Contador <- Contador - 1
-         FimSe
+         Jogo[2, 3] <- Marcacao
       Caso 7
-         Se (Jogo[3,1] = "-") entao
-            Jogo[3, 1] <- Marcacao
-         Senao
-            Contador <- Contador - 1
-         FimSe
+         Jogo[3, 1] <- Marcacao
       Caso 8
-         Se (Jogo[3,2] = "-") entao
-            Jogo[3, 2] <- Marcacao
-         Senao
-            Contador <- Contador - 1
-         FimSe
+         Jogo[3, 2] <- Marcacao
       Caso 9
-         Se (Jogo[3,3] = "-") entao
-            Jogo[3, 3] <- Marcacao
-         Senao
-            Contador <- Contador - 1
-         FimSe
+         Jogo[3, 3] <- Marcacao
    FimEscolha
 FimProcedimento
 
